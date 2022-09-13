@@ -1,1 +1,1 @@
-# ALX-low_level_programming
+ program that prints _putchar, followed by a new line
