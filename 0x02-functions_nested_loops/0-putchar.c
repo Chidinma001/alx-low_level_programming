@@ -1,8 +1,8 @@
-#includ "main.h"
+#include <stdio.h>
 
 /**
- * main - print putchar
- * Return: always 0
+ * main - entry point
+ * Return: always 0 (Success)
  */
 
 int main(void)
@@ -19,5 +19,5 @@ int main(void)
 
 		return (0);
 }
-^C
+
 
