@@ -4,7 +4,8 @@
  * print_last_digit - prints the last digit of a number
  * @n: checks the function stated above
  * Return: int
- * int print_last_digit(int n)
+ */
+int print_last_digit(int n)
 {
 int a;
 
