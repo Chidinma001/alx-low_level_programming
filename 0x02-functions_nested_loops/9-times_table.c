@@ -11,7 +11,7 @@ void times_table(void)
 	i = 0;
 	while (i <= 9)
 	{
-		j = 0,
+		j = 0;
 		  while (j <= 9)
 		  {
 			  k = i * j;
