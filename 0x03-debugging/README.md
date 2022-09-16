@@ -1,1 +1,3 @@
-this main file is a test for a postitive_or_negative()
+# About Folder
+
+Starting to learn how to debug basic c codes from a given c-file.
