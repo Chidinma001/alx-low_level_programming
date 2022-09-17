@@ -1,1 +1,1 @@
- program that prints _putchar, followed by a new line
+Testing out my knowledge on c functions, loops and nested loops.
