@@ -11,4 +11,4 @@ char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i = ); *(src 
+	for (i = ); *(src +  
