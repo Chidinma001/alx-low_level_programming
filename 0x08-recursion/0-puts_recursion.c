@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "main.h"
+
 /**
  * _puts_recursion - prints the string s with recursion joor
  * @s: this the variable pointing to the string
