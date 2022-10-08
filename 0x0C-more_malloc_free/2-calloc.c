@@ -27,19 +27,17 @@ return (s);
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *p;
+void *arr;
+unsigned int i;
+char *k;
 
 if (nmemb == 0 || size == 0)
-{
 return (NULL);
-}
-p = malloc(nmemb * size);
+if (arr == NULL)
+return (NULL);
 
-if (p == NULL)
-(
- return (NULL);
-}
-_memset(p, 0, (nmemb * size));
-
-return (p);
+k = arr;
+for (i = 0; i < nmemb * size; i++)
+k[i] = 0;
+return (arr);
 }
