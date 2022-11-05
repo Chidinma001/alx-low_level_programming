@@ -41,3 +41,40 @@ listint_t *getLastNode(listint_t *prmHeadNode)
 	else
 		return (getLastNode(prmHeadNode->next));
 }
+
+/**
+ * add_nodeint_end - adds a new node at the end of a listint_t list
+ *
+ * @head: first element
+ * @n: number
+ *
+ * Return: new node
+ */
+listint_t *add_nodeint_end(listint_t **head, const int n)
+{
+	listint_t *new, *last;
+
+	if (head == NULL)
+		return (NULL);
+
+	new = createNode(n);
+	if (new == NULL)
+		return (NULL);
+
+	if (*head == NULL)
+	{
+		*head = new;
+	}
+	else
+	{
+		last = getLastNode(*head);
+		if (last == NULL)
+		{
+			printf("failed\n");
+			return (NULL);
+		}
+		last->next = new;
+	}
+
+	return (new);
+}
