@@ -1,1 +1,1 @@
-Testing out my knowledge on c functions, loops and nested loops.
+Testing out my knowledge on c file i/o
