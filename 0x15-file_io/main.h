@@ -1,4 +1,5 @@
 #ifndef MAIN_H
+<<<<<<< HEAD
 
 #define MAIN_H
 
@@ -30,4 +31,21 @@ int append_text_to_file(const char *filename, char *text_content);
 
 
 
+=======
+#define MAIN_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int _putchar(char c);
+ssize_t read_textfile(const char *filename, size_t letters);
+int create_file(const char *filename, char *text_content);
+int _strlen(char *str);
+int append_text_to_file(const char *filename, char *text_content);
+
+>>>>>>> 70e20b8714e282e85bc025d70f2ca1caed9a38b0
 #endif
