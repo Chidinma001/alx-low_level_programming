@@ -1,1 +1,1 @@
-s is for the root folder
+s is for the root folders
